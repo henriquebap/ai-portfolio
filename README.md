@@ -8,7 +8,9 @@
 
 </div>
 
-At a HealthTech (VOA Health) I built the evaluation for medical AI: streaming ASR experiments, a medication-first benchmark of ASR providers on clinical audio, and LLM-as-Judge evaluators in production. Today I build HOB Oficina on my own: the system auto mechanic shops run on, with agents, voice and WhatsApp inside it.
+I build LLM products end to end: agents with guardrails in code, voice pipelines, and the evaluation that shows whether they work.
+
+I shipped LLM-as-Judge evaluators in production for clinical AI at VOA Health, and I build HOB Oficina, the multi-tenant system auto mechanic shops run on, as sole engineer.
 
 This repository is the public index of that work. Most of it runs in private repositories (client systems and my own products), so each entry says what it is and where to see it. The full case studies, with architecture and trade-offs, live at **[henriquebap.com/sobre](https://henriquebap.com/sobre)**.
 
