@@ -8,9 +8,11 @@
 
 </div>
 
-I build LLM products end to end: agents with guardrails in code, voice pipelines, and the evaluation that shows whether they work.
+AI Engineer focused on LLM evaluation, agentic systems and voice AI.
 
-I shipped LLM-as-Judge evaluators in production for clinical AI at VOA Health, and I build HOB Oficina, the multi-tenant system auto mechanic shops run on, as sole engineer.
+- **Currently** — building HOB Oficina, the multi-tenant system auto mechanic shops run on, with agents, WhatsApp and voice. Sole engineer.
+- **Previously** — ML / AI Engineer at VOA Health: clinical ASR benchmarks and LLM-as-Judge evaluators in production.
+- **Open to** — AI Engineer roles, remote.
 
 This repository is the public index of that work. Most of it runs in private repositories (client systems and my own products), so each entry says what it is and where to see it. The full case studies, with architecture and trade-offs, live at **[henriquebap.com/sobre](https://henriquebap.com/sobre)**.
 
