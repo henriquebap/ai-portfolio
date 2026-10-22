@@ -100,7 +100,6 @@ Detectron2 / Mask R-CNN pipeline for automating bicycle claim verification: cust
 
 | Project | What it is | Link |
 |---|---|---|
-| Postgrad RAG Assistant | RAG over my ML postgrad material with page-level source citations and measured cost per query | private |
 | Race Strategy Copilot | Endurance-racing strategist: Claude with extended thinking and the rulebook in prompt cache, on top of a deterministic pace engine | private |
 | Local Voice Tutor | Language tutor fully offline on Apple Silicon: Whisper, Mistral 7B, Coqui TTS, no API calls | private |
 | Experimental Stock Forecasting | PyTorch + FastAPI system whose monitoring exposed weak generalization | [repo](https://github.com/henriquebap/previsao_acoes) |
