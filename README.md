@@ -50,7 +50,7 @@ flowchart LR
 - Streaming ASR: characterized the context-versus-latency trade-off and tuned VAD and segmentation for the middle ground
 - Benchmarked commercial ASR providers on clinical audio, with evaluation centered on medication names, not average WER
 - Dual-annotator pipeline in Argilla feeding fine-tuning data to Hugging Face Hub
-- LLM-as-Judge evaluators in production on LangSmith, calibrated against human annotation
+- LLM-as-Judge evaluators in production on LangSmith, compared against human annotation and used as a monitoring signal
 
 ```mermaid
 flowchart LR
@@ -58,7 +58,7 @@ flowchart LR
   B --> C[ASR provider<br/>chosen by benchmark]
   C --> D[Clinical document<br/>written by an LLM]
   D --> E[Deterministic checks<br/>medication names first]
-  E --> F[LLM-as-Judge<br/>calibrated against humans]
+  E --> F[LLM-as-Judge<br/>monitoring signal]
   F -. evaluation decides the next configuration .-> B
 ```
 
@@ -87,12 +87,12 @@ flowchart LR
 ### Education Risk Prediction · [repo](https://github.com/henriquebap/datathon-educacao-passos-magicos) · [live](https://henriquebap-datathon-educacao-passos-magicos.hf.space)
 *FIAP capstone · social impact*
 
-End-to-end ML system for identifying educational delay risk at an NGO: XGBoost, FastAPI, Streamlit dashboard, and Evidently AI drift monitoring. 92.59% accuracy and 0.97 ROC-AUC on held-out data.
+End-to-end ML system for identifying educational delay risk at an NGO: XGBoost, FastAPI, and a Streamlit dashboard with an Evidently AI drift report. When every model hit F1 = 1.0, I traced it to label leakage and removed the leaking features.
 
 ### Insurance Computer Vision · [repo](https://github.com/henriquebap/R-CNN-OD-Sprint)
 *Porto Seguro challenge · Top-10 finalist*
 
-Detectron2 / Mask R-CNN pipeline for automating bicycle claim verification: custom COCO dataset, augmentation, transfer learning, cloud training.
+Photo check for bicycle insurance: a FastAPI app calling an object-detection model hosted on Roboflow, with Detectron2 / Mask R-CNN transfer-learning experiments from COCO weights. Team of four; I built the API.
 
 ---
 
